@@ -18,4 +18,6 @@ void exit_sixel_mode();
 
 void sixel_newline();
 
+void sixel_set_color(int register_id, int red, int green, int blue);
+
 #endif

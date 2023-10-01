@@ -35,3 +35,7 @@ void exit_sixel_mode() {
 void sixel_newline() {
     printf(SIXEL_NEWLINE);
 }
+
+void sixel_set_color(int register_id, int red, int green, int blue) {
+    printf("#%d;2;%d;%d;%d", register_id, red, green, blue);
+}
